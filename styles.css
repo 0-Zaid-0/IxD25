@@ -1,3 +1,60 @@
-h1 {
-  color: green;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+} 
+
+.left-nav {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.left-nav a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.left-nav a:hover {
+  background-color: #f0f0f0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+.low {
+  background-color: red;
+  color: white;
+}
+
+.medium {
+  background-color: yellow;
+  color: black;
+}
+
+.high {
+  background-color: green;
+  color: white;
 }
